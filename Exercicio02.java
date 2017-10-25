@@ -5,12 +5,9 @@ import static java.lang.Math.cos;
 import static java.lang.Math.pow;
 import static java.lang.Math.sin;
 import static java.lang.Math.tan;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    
-    Scanner pega = new Scanner(System.in);
         
     public static void main(String[] args) {
         Scanner pega = new Scanner(System.in);
