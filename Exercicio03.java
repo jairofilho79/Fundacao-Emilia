@@ -22,7 +22,7 @@ public class Exercicio03 {
             nome[i] = "";
             sexo[i] = "";            
         }
-        System.out.println("Bem-vindo a parte 01 da atividade 03");
+        System.out.println("Bem-vindo a parte final da atividade 03");
         do{
         System.out.println("Qual programa você quer executar? Digite 0 para sair");
         x = pega.nextInt();
