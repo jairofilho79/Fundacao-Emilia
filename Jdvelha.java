@@ -61,7 +61,7 @@ public class Jdvelha {
                     System.out.print(jogo.jogador2+", escolha uma opção: ");
                 jogo.escolha = pega.nextInt();
                 //garante que a escolha será válida
-                while(jogo.escolha>0&&jogo.escolha<10){
+                while(!(jogo.escolha>0&&jogo.escolha<10)){
                     System.out.println("Posição inválida. Digite novamente");
                     jogo.escolha = pega.nextInt();
                 }
