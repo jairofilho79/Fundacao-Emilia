@@ -20,7 +20,7 @@ public class Bicicleta extends Veiculo{
     }
     
     public Bicicleta(){
-        this(1,false,"Grandes Marcas",2,"Atual",0);
+        this(1,false);
     }
     
     @Override
