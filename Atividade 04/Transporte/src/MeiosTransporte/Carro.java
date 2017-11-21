@@ -12,13 +12,13 @@ package MeiosTransporte;
 public class Carro extends Automovel{
     private int qtdPortas;
 
-    public Carro(int qtdPortas, double potenciaDoMotor, String marca, int qtdRodas, String modelo, int velocidade) {
-        super(potenciaDoMotor, marca, qtdRodas, modelo, velocidade);
+    public Carro(int qtdPortas) {
+        super();
         this.qtdPortas = qtdPortas;
     }
     
     public Carro(){
-         this(2,70,"Grandes Marcas",4,"Atual",0);
+         this(2);
     }
     @Override
     public void imprimirInformacoes() {
