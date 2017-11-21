@@ -12,13 +12,13 @@ package MeiosTransporte;
 public class Moto extends Automovel{
     private boolean partidaEletrica;
 
-    public Moto(boolean partidaEletrica, double potenciaDoMotor, String marca, int qtdRodas, String modelo, int velocidade) {
-        super(potenciaDoMotor, marca, qtdRodas, modelo, velocidade);
+    public Moto(boolean partidaEletrica) {
+        super();
         this.partidaEletrica = partidaEletrica;
     }
     
     public Moto(){
-         this(false,70,"Grandes Marcas",2,"Atual",0);
+         this(false);
     }
     
     @Override
