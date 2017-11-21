@@ -13,8 +13,8 @@ public class Bicicleta extends Veiculo{
     private int numMarchas;
     private boolean bagageiro;
 
-    public Bicicleta(int numMarchas, boolean bagageiro, String marca, int qtdRodas, String modelo, int velocidade) {
-        super(marca, qtdRodas, modelo, velocidade);
+    public Bicicleta(int numMarchas, boolean bagageiro) {
+        super();
         this.numMarchas = numMarchas;
         this.bagageiro = bagageiro;
     }
