@@ -12,12 +12,12 @@ package MeiosTransporte;
 public class Automovel extends Veiculo{
     private double potenciaDoMotor;
 
-    public Automovel(double potenciaDoMotor, String marca, int qtdRodas, String modelo, int velocidade) {
-        super(marca, qtdRodas, modelo, velocidade);
+    public Automovel(double potenciaDoMotor) {
+        super();
         this.potenciaDoMotor = potenciaDoMotor;
     }
     public Automovel(){
-         this(70,"Grandes Marcas",1,"Atual",0);
+         this(70);
     }
     
     @Override
